@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            p{
+                height: 30px;
+                border: 1px solid #000;
+            }
+            /*
+            指定属性名，并且具有属性值，此属性值是一个词列表，以空格隔开，
+            其中词列表中包含了一个value，等号前面的~不能不写
+            */
+            p[miaov~=old]{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <P miaov="leo old">leo</P>
+        <P miaov="dp">杜鹏</P>
+        <P miaov="zM">紫薯</P>
+        <P miaov="xm">小美</P>
+    </body>
+</html>
